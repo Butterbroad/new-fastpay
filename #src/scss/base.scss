@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+    font-family: "Montserrat-Regular", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.page {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+	flex: 0 0 auto;
+}
+.container {
+    max-width: 1070px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input::-ms-clear { 
+    display: none; 
+}
+
+input {
+    &:focus {
+        &::placeholder {
+            font-size: 0;
+        }
+    }
+}
+
+.btn {
+    &_red {
+        font-size: 23px;
+        line-height: 28px;
+        letter-spacing: -0.05em;
+        color: #fff;
+        font-family: "Montserrat-ExtraBold", sans-serif;
+        background: linear-gradient(261.53deg, #6A0000 -6.16%, rgba(255, 255, 255, 0) 86.16%), #FF0000;
+        box-shadow: 0px 0px 20px rgba(255, 60, 60, 0.7);
+        max-width: 345px;
+        width: 100%;
+        transform: skew(-10deg);
+        height: 61px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

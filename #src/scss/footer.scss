@@ -1,0 +1,28 @@
+.footer {
+
+  // .footer__wrapper
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 41px;
+    display: none;
+  }
+
+  // .footer__socials
+
+  &__socials {
+  }
+
+  .socials {
+    // .socials__link
+  
+    &__link {
+      margin-right: 17px;
+      width: 17px;
+      height: 17px;
+    }
+  }
+}
+
