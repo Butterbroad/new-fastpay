@@ -16,12 +16,6 @@ modalTrigger.addEventListener('click', () => {
   modalClose.addEventListener('click', () => {
     modal.classList.remove('active');
   });
-
-  const modalLink = document.querySelector('.modal-info__list-link');
-  modalLink.addEventListener('click', e => {
-    e.preventDefault();
-    modal.classList.remove('active');
-  })
 });
 
 
@@ -58,4 +52,4 @@ testWebP(function (support) {
     } else {
         document.querySelector('body').classList.add('no-webp');
     }
-});
+});;

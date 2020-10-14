@@ -16,12 +16,6 @@ modalTrigger.addEventListener('click', () => {
   modalClose.addEventListener('click', () => {
     modal.classList.remove('active');
   });
-
-  const modalLink = document.querySelector('.modal-info__list-link');
-  modalLink.addEventListener('click', e => {
-    e.preventDefault();
-    modal.classList.remove('active');
-  })
 });
 
 
@@ -42,4 +36,4 @@ modalTrigger.addEventListener('click', () => {
 
 
 
-@@include('webpSupport.js')
+@@include('webpSupport.js');

@@ -1,5 +1,11 @@
 .footer {
+  position: relative;
+  z-index: 1;
+  display: none;
 
+  @media (max-width: 620px) {
+    display: block;
+  }
   // .footer__wrapper
 
   &__wrapper {
@@ -7,12 +13,12 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 41px;
-    display: none;
   }
 
   // .footer__socials
 
   &__socials {
+    
   }
 
   .socials {
