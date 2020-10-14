@@ -259,8 +259,7 @@
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     font-size: 48px;
     line-height: 84.5%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+    background-clip: text;
     color: #42EF25;
     background-image: linear-gradient(98.21deg, #42EF25 17.36%, #FFFFFF 128.48%);
     background-size: 100%;
@@ -442,11 +441,6 @@
     }
 	}
 
-  // .modal-info__steps
-
-  &__steps {
-  }
-
 	// .modal-info__btn
 
 	&__btn {
@@ -464,8 +458,7 @@
     }
 	}
 }
-.info-steps {
-}
+
 .info-step {
   display: flex;
   justify-content: space-between;
